@@ -1,6 +1,6 @@
 Dakota Scott, HW3
 
-Idiom: Bar Chart / Mark: Line  ('Maximum Daily Percentage Change vs Company Name')
+Idiom: Bar Chart / Mark: Line  ('Maximum Daily Percentage Change vs Company Name')  
 | Data: Attribute           | Data: Attribute Type  | Encode: Channel |  
 | Company Name              | key, categorical      | Color |  
 | Percentage Daily Change   | value, quantititative | vertical spatial region (y-axis) |  
