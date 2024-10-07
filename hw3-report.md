@@ -5,23 +5,23 @@ Idiom: Bar Chart / Mark: Line  ('Maximum Daily Percentage Change vs Company Name
 | Company Name              | key, categorical      | Color |  
 | Percentage Daily Change   | value, quantititative | vertical spatial region (y-axis) |  
 
-Idiom: Line Graph / Mark: Line ('Percentage Daily Change vs Time (year)')
+Idiom: Line Graph / Mark: Line ('Percentage Daily Change vs Time (year)')  
 | Data: Attribute           | Data: Attribute Type                  | Encode: Channel |  
 | Date                      | key, quantititative (temporal)        | Horizontal spatial region X-axis|  
 | Percentage Daily Change   | value, quantititative                 | vertical spatial region (y-axis) |  
 
 
-Idiom: Scatter plot matrix ("Relationship of daily high and low on daily percentage increase of five different stocks")
+Idiom: Scatter plot matrix ("Relationship of daily high and low on daily percentage increase of five different stocks")  
 | Data: Attribute               | Data: Attribute Type                  | Encode: Channel |  
 | Company                       | key, categorical                      | color: corresponding color for each company |  
 | Chart information (see below) | value, quantititative                 | vertical spatial region (y-axis) |  
   
-Idiom: Scatter Plot / Mark: Dot  ("Comparison of daily high on daily percentage increase for {company}")
+Idiom: Scatter Plot / Mark: Dot  ("Comparison of daily high on daily percentage increase for {company}")  
 | Data: Attribute           | Data: Attribute Type                  | Encode: Channel |  
 | Daily High                | key, quantitative                     | horizontal spatial on common scale region (x-axis) |  
 | Percentage Daily Change   | value, quantititative                 | vertical spatial region (y-axis) |  
   
-Idiom: Scatter Plot / Mark: Dot  ("Comparison of daily low on daily percentage increase for {company}")
+Idiom: Scatter Plot / Mark: Dot  ("Comparison of daily low on daily percentage increase for {company}")  
 | Data: Attribute           | Data: Attribute Type                  | Encode: Channel |  
 | Daily Low                 | key, quantitative                     | horizontal spatial on common scale region (x-axis) |  
 | Percentage Daily Change   | value, quantititative                 | vertical spatial region (y-axis) |  
