@@ -36,3 +36,7 @@ To evaluate the data, the daily percentage change needed to be calculated. This 
 To recreate Chart 1 from Python in Excel, I saved the processed information from Python to a file. I then opened this file and plotted a line graph by selecting the two corresponding columns.  
 
 In reflection, due to my prior experience, the use of Python libraries for data visualization was far easier than the use of Excel. Every menu selection in a GUI is still a call to a line of code, I would prefer just to type the line of code.  
+
+References
+*  https://www.grepper.com/answers/364307/sort+rows+by+values+dataframe?ucard=1
+*  https://www.grepper.com/answers/141110/dataframe+copy?ucard=1
